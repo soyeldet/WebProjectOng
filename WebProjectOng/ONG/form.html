@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asociate</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="/images/logoong.png">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <a href="index.html">
+            <img src="images/logoong.png" alt="Foto del logo">
+            </a>
+            <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="activities.html">Actividades</a></li>
+                        <li><a href="campaigns.html">Campañas</a></li>
+                        <li><a href="notices.html">Noticias</a></li>
+                        <li><a href="form.html">Asociate</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            </head>
+            <body>
+                <div class="formulario">
+                    <form action="/alta" method="post">
+                        <label for="nombre" class="titleForm">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        <label for="apellidos" class="titleForm">Apellidos:</label>
+                        <input type="text" id="apellidos" name="apellidos" required>
+                        <label for="tratamiento" class="titleForm">Tratamiento:</label>
+                        <select id="tratamiento" name="tratamiento" required>
+                            <option value="x">Seleccione...</option>
+                            <option value="sr">Sr.</option>
+                            <option value="sra">Sra.</option>
+                            <option value="sin_tratamiento">Sin tratamiento</option>
+                        </select>
+                        <label for="codigo_postal" class="titleForm">Código postal:</label>
+                        <input type="text" id="codigo_postal" name="codigo_postal" required>
+                        <label for="telefono" class="titleForm">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono">
+                        <label for="email" class="titleForm">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="cuota" class="titleForm">Cuota de socio:</label>
+                        <select id="quota" name="quota" required>
+                            <option value="x">Seleccione...</option>
+                            <option value="10">10€</option>
+                            <option value="20">20€</option>
+                            <option value="50">50€</option>
+                            <option value="100">100€</option>
+                        </select>
+                        <label class="titleForm">Temas de interés:</label>
+                        <label for="tema1" class="checkbox"><input type="checkbox" id="tema1" name="tema">Transformando vidas a través de la educación</label>
+                        <label for="tema2" class="checkbox"><input type="checkbox" id="tema2" name="tema">Construyendo escuelas, creando oportunidades</label>
+                        <label for="tema3" class="checkbox"><input type="checkbox" id="tema3" name="tema">Educación para todos: nuestro compromiso</label>
+                        <label for="tema4" class="checkbox"><input type="checkbox" id="tema4" name="tema">Solidaridad en acción: EducaFuturo avanza</label>
+                        <label for="tema5" class="checkbox"><input type="checkbox" id="tema5" name="tema">Fotos que inspiran: educación en acción</label>
+                        <label for="tema6" class="checkbox"><input type="checkbox" id="tema6" name="tema">Construyendo un futuro brillante juntos!</label>                  
+                        <p>
+                            <input type="checkbox" id="privacy-policy" name="privacy-policy" required class="privacidad">
+                            <label for="privacy-policy"><b>Acepto la política de privacidad</b></label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter"><b>Suscribirse al newsletter</b></label>
+                        </p>
+                        <button type="submit" class="sendButton">Enviar</button>
+                    </form>
+        </section>
+    <footer>
+        <section>
+            <h1 class="title4"></h1>
+            <ul class="infoList">
+                <li>Telf: 933 02 02 24</li>
+                <li>Mail: info@educafuturo.com</li>
+                <li>Ubic: Pl. d'Urquinaona, 10, Ciutat Vella, 08010 Barcelona</li>
+                <img src="images/logoong.png" alt="Logo footer" class="logoFooter">
+            </ul>            
+        </section>
+    </footer>
+    </main>
+</body>
+</html>
